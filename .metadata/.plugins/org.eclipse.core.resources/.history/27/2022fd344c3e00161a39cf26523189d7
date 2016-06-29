@@ -1,0 +1,66 @@
+'''
+Created on 30.06.2016
+
+@author: Zmote
+'''
+from symbol import decorator
+def transmit_to_space(message):
+    "This is the enclosing function"
+    def data_transmitter():
+        "The nested function"
+        print(message)
+    return data_transmitter
+
+a = transmit_to_space("What")
+a()
+
+def multipier_of(n):
+    def multiplier(number):
+        return number*n
+    return multiplier
+b = multipier_of(10)
+c = b(7)
+
+print c 
+
+'''
+Decorators
+'''
+
+'''
+Auch:
+function1 = decorator(function)
+'''
+def type_check(correct_type):
+    def check(old_function):
+        def new_function(arg):
+            if (isinstance(arg, correct_type)):
+                return old_function(arg)
+            else:
+                print "Bad Type"
+        return new_function
+    return check
+
+@type_check(int)
+def times2(num):
+    return num*2
+
+print times2(2)
+times2('Not A Number')
+
+@type_check(str)
+def first_letter(word):
+    return word[0]
+
+print first_letter('Hello World')
+first_letter(['Not', 'A', 'String'])
+
+
+
+
+
+
+
+
+
+

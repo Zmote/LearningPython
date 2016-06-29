@@ -1,0 +1,10 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+
+import urllib
+
+urllib.urlopen("http://www.20min.ch")
+print dir(urllib)

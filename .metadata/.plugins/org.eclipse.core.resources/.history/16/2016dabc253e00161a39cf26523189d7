@@ -1,0 +1,30 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+from _socket import timeout
+primes = [2,3,5,7]
+
+for prime in primes:
+    print prime,;
+print;
+
+for x in xrange(5):
+    print x,;
+print;
+
+for x in xrange(3,6):
+    print x,;
+print;
+
+for x in xrange(3,8,2):
+    print x,;
+print;
+
+count = 0
+while count < 5:
+    print count,;
+    count += 1;
+print;
+    

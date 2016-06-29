@@ -1,0 +1,10 @@
+'''
+Created on 30.06.2016
+
+@author: Zmote
+'''
+import json
+
+json_string = json.dumps([1,2,3,"a","b","c"])
+
+print json.loads(json_string)

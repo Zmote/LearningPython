@@ -1,0 +1,29 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+
+name = "John";
+print "Hello, %s!" % name;
+age = 23
+print "%s is %d years old." %(name,age);
+mylist = [1,2,3];
+print "A list: %s" % mylist;
+
+print "A hex: %x" % 3;
+
+astring = "Hello world!";
+astring2 = 'Hello world!';
+
+print astring.index("o");
+print astring.count("l");
+print astring[3:7];
+print astring[3:7:2];
+print astring[::-1]; # see correlation to top line
+print astring.upper();
+print astring.lower();
+print astring.startswith("Hello"); #bool
+print astring.endswith("asdfasdfasdf"); #bool
+
+print = astring.split(" ");

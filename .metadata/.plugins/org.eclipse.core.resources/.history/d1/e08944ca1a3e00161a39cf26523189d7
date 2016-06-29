@@ -1,0 +1,58 @@
+'''
+Created on 28.06.2016
+
+@author: Zmote
+'''
+
+'''
+basic types
+'''
+myint = 7;
+myfloat1 = 7.0;
+myfloat2 = float(7);
+mystring1 = 'hello';
+mystring2 = "hello";
+mystring3 = "Don't worry about appostrophes lal";
+
+print "All: " + str(myint) + " " + str(myfloat1) + " " + str(myfloat2) + " " + mystring1 + " " + mystring2 + " " + mystring3;
+
+
+'''
+Lists
+'''
+
+mylist = [];
+mylist.append(1);
+mylist.append(2);
+mylist.append(3);
+
+print(mylist[0]); # prints 1
+print(mylist[1]); # prints 2
+print(mylist[2]); # prints 3
+
+for x in mylist:
+    print x,;
+print;
+mylist2 = [1,2,3,4,5,6,7];
+
+for y in mylist2:
+    print y,;
+    
+'''
+Basic operators
+'''
+    
+number = 1 + 2 * 3 / 4.0;
+
+print;
+
+print number;
+
+print;
+
+
+
+
+
+
+

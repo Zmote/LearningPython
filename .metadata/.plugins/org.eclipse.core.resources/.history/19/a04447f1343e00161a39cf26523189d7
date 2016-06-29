@@ -1,0 +1,19 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+class MyClass:
+    variable = "blah"
+    
+    def function(self):
+        print "This is a message inside the class"
+
+myobject = MyClass();
+myobject.function()
+
+print myobject.variable
+
+phonebook = {}
+phonebook["Zafer"] = 786069811
+phonebook["Niyazi"] = 769992211

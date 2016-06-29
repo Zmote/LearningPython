@@ -1,0 +1,25 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Zmote\My Documents\LiClipse Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Modules_and_Packages\com.python.pydev.analysis\v2_indexcache
+foo.bar|1467232119389436000|C:\Users\Zmote\My Documents\LiClipse Workspace\Modules_and_Packages\foo\bar.py
+foo.bars|1467232391281987000|C:\Users\Zmote\My Documents\LiClipse Workspace\Modules_and_Packages\foo\bars.py
+zafer|1467231797212008000|C:\Users\Zmote\My Documents\LiClipse Workspace\Modules_and_Packages\zafer.py
+exercise|1467232416387423000|C:\Users\Zmote\My Documents\LiClipse Workspace\Modules_and_Packages\exercise.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=foo.bar
+3=foo.bars
+2=zafer
+-- END DICTIONARY
+-- START TREE 1
+5
+__a|0|
+add|1|add_me!10@
+imp|0|
+niy|1|niyazi!18@
+not|1|not_exportable!26@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

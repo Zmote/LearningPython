@@ -1,0 +1,11 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+import foo.bar
+# import urllib
+import zafer
+
+# urllib.urlopen("http://www.20min.ch")
+zafer.niyazi("Zafer is awesome")

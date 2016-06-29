@@ -1,0 +1,8 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+sentence = "the quick brown fox jumps over the lazy dog"
+words = sentence.split()
+word_lengths = []

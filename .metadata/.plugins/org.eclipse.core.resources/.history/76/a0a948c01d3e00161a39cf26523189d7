@@ -1,0 +1,10 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+
+name = "John";
+print "Hello, %s!" % name;
+age = 23
+print "%s is %d years old." %(name,age);

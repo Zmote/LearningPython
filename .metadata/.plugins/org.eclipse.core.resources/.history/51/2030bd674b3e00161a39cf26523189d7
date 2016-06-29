@@ -1,0 +1,49 @@
+'''
+Created on 30.06.2016
+
+@author: Zmote
+'''
+from symbol import decorator
+def transmit_to_space(message):
+    "This is the enclosing function"
+    def data_transmitter():
+        "The nested function"
+        print(message)
+    return data_transmitter
+
+a = transmit_to_space("What")
+a()
+
+def multipier_of(n):
+    def multiplier(number):
+        return number*n
+    return multiplier
+b = multipier_of(10)
+c = b(7)
+
+print c 
+
+'''
+Decorators
+'''
+@decorator
+def function(arg):
+    return "Return"
+
+'''
+Auch:
+function = decorator(function)
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+

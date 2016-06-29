@@ -1,0 +1,19 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+# import foo.bar
+# from foo import bar
+# from foo import bars
+# import urllib
+from foo import *
+import zafer
+
+# urllib.urlopen("http://www.20min.ch")
+zafer.niyazi("Zafer is awesome")
+
+bar.add_me("Zafer");
+
+bar.add_me("Rajej Ramajan Koothrapali")
+bars.not_exportable("This is it")

@@ -1,0 +1,9 @@
+'''
+Created on 29.06.2016
+
+@author: Zmote
+'''
+x = 2
+print x == 2
+print x == 3
+print x < 3

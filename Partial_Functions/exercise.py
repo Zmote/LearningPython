@@ -1,0 +1,33 @@
+'''
+Created on 30.06.2016
+
+@author: Zmote
+'''
+from functools import partial
+
+def func(u,v,w,x):
+    return u*4 + v*3 + w*2 + x
+
+p = partial(func,5,6,7)
+
+print p(8) #ist Aufruf von func(u=5,v=6,w=7,x)
+# mit p(8) --> fun(u=5,v=6,w=7,x=8)
+# --> partial heisst, man kann funktionen mit
+# vorgegebenen Argumenten futtern und diese als separate
+# partial function verwenden, so dass man diese nur noch
+# mit dem nicht gesetzten Varaible ausfuhren kann
+
+'''
+Code Inspection
+'''
+##define the Vehicle class
+class Vehicle:
+    name = ""
+    kind = "car"
+    color = ""
+    value = 100.00
+    def description(self):
+        desc_str = "%s is a %s %s worth $%.2f." % (self.name, self.color, self.kind, self.value)
+        return desc_str
+
+print dir(Vehicle)
